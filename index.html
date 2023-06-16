@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
+    </head>
+<body>
+    <section>
+      <div class="container">
+        <div class="user signinBx">
+          <div class="imgBx"><img src="https://raw.githubusercontent.com/WoojinFive/CSS_Playground/master/Responsive%20Login%20and%20Registration%20Form/img1.jpg" alt="" /></div>
+          <div class="formBx">
+            <form action="" onsubmit="return false;">
+              <h2>Sign In</h2>
+              <input type="text" id="Username"name="" placeholder="Username" />
+              <input type="password" id="Password" name="" placeholder="Password" />
+              <input type="Date" class="form-control" id="Date" name="Date" placeholder="Date" required>
+              <br>
+              <button type="submit" name="" value="Login" class="btn" onclick="login()">Login</button>
+              <p class="signup">
+                Don't have an account ?
+                <a href="#" onclick="toggleForm();">Sign Up.</a>
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="user signupBx">
+          <div class="formBx">
+            <form action="" onsubmit="return false;">
+              <h2>Create an account</h2>
+              <input type="text" id="Full Name" name="" placeholder="Full Name" />
+              <input type="email" name="" placeholder="Email Address" />
+              <input type="ph no" name="" placeholder="Phone Number" />
+              <label for="Position" aria-placeholder="Please select"></label>
+              <select name="Position" id="Position" >
+                  <option value="Developer">Developer</option>
+                  <option value="Tester">Tester</option>
+                  <option value="UI/UX Designer">UI/UX Designer</option>
+              </select>      
+              <input type="country" name="" placeholder="Enter your country" />
+              <input type="city" name="" placeholder="Enter your city" />
+              <input type="password" id="Password" name="" placeholder="Create Password" />
+              <input type="password" name="" placeholder="Confirm Password" />
+              <label for="Gender" aria-placeholder="Please select"></label>
+              <select name="Gender" id="Gender" >
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Other">Other</option>
+                  <option value="Prefer not to say">Prefer not to say</option>
+              </select>     
+              <button type="submit" name="" value="Sign Up" class="btn" onclick="register">signup</button>
+              <p class="signup">
+                Already have an account ?
+                <a href="#" onclick="toggleForm();">Sign in.</a>
+              </p>
+            </form>
+          </div>
+          <div class="imgBx"><img src="https://raw.githubusercontent.com/WoojinFive/CSS_Playground/master/Responsive%20Login%20and%20Registration%20Form/img2.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
